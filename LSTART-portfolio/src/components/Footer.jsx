@@ -10,8 +10,8 @@ function Footer() {
     <footer className="bg-dark text-light text-center p-3 bottom">
       <div className="container">
         <div className="row">
-          <div className="col-md-8 d-flex justify-content-center align-items-center">
-            <span>&copy; 2024 Celia's Portfolio</span>
+          <div className="col-md-8 d-flex justify-content-center align-items-center m-auto">
+            <span>&copy; 2024 Celia&rsquo;s Portfolio</span>
             <span className="ms-3">
               <a href="https://www.linkedin.com/in/celiacyy/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'linkedin']} className="text-light"/>

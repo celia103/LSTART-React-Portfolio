@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/home.css";
 import profileImage from "../assets/images/photo1.jpg";
+import { Link } from "react-router-dom";
 
 function Home() {
 	return (
@@ -17,19 +18,24 @@ function Home() {
 						</div>
 
 						<p className="lead">
-							<p className="fw-bold">I'm Celia, a Hong Kong Graphic Designer, Illustrator, and enthusiastic
-							student in Front-End Web Development based in Greater Manchester, U.K.</p>  My
-							design journey is a continuous learning experience, and I'm excited about exploring the  possibilities of web development. I aspire to
+							<span className="fw-bold">
+								I&rsquo;m Celia, a Hong Kong Graphic Designer, Illustrator, and
+								enthusiastic student in Front-End Web Development based in Greater
+								Manchester, U.K.
+							</span>{" "}
+							My design journey is a continuous learning experience, and I&rsquo;m
+							excited about exploring the possibilities of web development. I aspire to
 							contribute my skills to create engaging and interactive web experiences.
 							Feel free to explore my portfolio.
 						</p>
+
 						<p className="lead">
-							<a
-								href="#"
-								className="btn btn-lg btn btn-outline-light fw-light border-white mt-4"
+							<Link
+								to="/projects-gallery"
+								className="btn btn-lg btn-outline-light fw-light border-white mt-4"
 							>
 								Learn more
-							</a>
+							</Link>
 						</p>
 					</main>
 				</div>

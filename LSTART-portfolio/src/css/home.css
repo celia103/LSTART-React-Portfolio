@@ -98,5 +98,5 @@ svg text {
 
 /* Button style */
 .btn {
-  border-radius: 0;
+  border-radius: 5px;
 }

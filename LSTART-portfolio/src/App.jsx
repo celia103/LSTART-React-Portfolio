@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
