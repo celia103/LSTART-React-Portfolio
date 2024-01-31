@@ -14,7 +14,12 @@ function NavBar() {
 					to="/"
 					className="d-flex align-items-center mb-0 mb-lg-0 text-white text-decoration-none"
 				>
-					<img src={logo} height="40" alt="Logo" />
+					<img
+						src={logo}
+						className="img-fluid"
+						alt="Logo"
+						style={{ marginRight: "10px", maxWidth: "150px" }}
+					/>
 				</Navbar.Brand>
 
 				<Navbar.Toggle

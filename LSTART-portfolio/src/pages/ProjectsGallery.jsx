@@ -18,7 +18,7 @@ function ProjectsGallery() {
 					repositories / CodePen.
 				</p>
 			</div>
-			<hr className="featurette-divider my-5" />
+			<hr className="my-5" />
 
 			{/* Projects Section */}
 			<div className="container-fluid bg-dark text-white min-vh-100">
@@ -33,7 +33,7 @@ function ProjectsGallery() {
               codePen={project.codePen}
 							video={project.video}							
 						/>
-						<hr className="featurette-divider my-5" />
+						<hr className="my-5" />
 					</div>
 				))}
 			</div>

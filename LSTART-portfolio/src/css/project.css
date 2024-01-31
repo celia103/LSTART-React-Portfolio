@@ -14,7 +14,7 @@
   white-space: nowrap;
   padding: 5px;
   margin-right: 4px;
-}
+} */
 
 
 a {
@@ -31,13 +31,13 @@ a:active {
   color: #212529; 
 }
 
+/* Different devices style */
 @media (min-width: 768px) {
   .link-gp {
     justify-content: flex-start;
   }
 }
 
-/* Different devices style */
 @media (max-width: 767px) {
   h2, p,
   .link-gp {
@@ -47,8 +47,4 @@ a:active {
   .link-gp {
     justify-content: center;
   }
-
-  img {
-   width: 310px;
-  }
-}
+} 

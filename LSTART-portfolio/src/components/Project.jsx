@@ -7,9 +7,9 @@ import "../css/project.css";
 function Project(props) {
 	// Body
 	return (
-		<div className="row featurette mx-auto">
+		<div className="row mx-auto">
 			<div className="col-md-7 order-md-2 text-align-center px-3">
-				<h2 className="featurette-heading ">{props.title}</h2>
+				<h2>{props.title}</h2>
 				<p className="lead">{props.description}</p>
 
 				{/* button */}
@@ -58,8 +58,8 @@ function Project(props) {
 					<img
 						src={props.screenshot}
 						alt={`Screenshot of ${props.title}`}
-						className="featurette-image img-fluid rounded"
-						style={{ maxWidth: "400px", height: "auto" }}
+						className="img-fluid rounded"
+						style={{ maxWidth: "90%", height: "auto" }}
 					/>
 				)}
 				{props.video && (
