@@ -83,4 +83,4 @@ Each project showcases responsive designs and dynamic user interfaces, reflectin
 ## Questions
 If you have any questions or need further clarification, feel free to open an issue or contact directly:
 
-- <a href="mailto:celiayych@gmail.com" target="_blank">Celia's Email</a>
+<a href="mailto:celiayych@gmail.com" target="_blank">Celia's Email</a>
