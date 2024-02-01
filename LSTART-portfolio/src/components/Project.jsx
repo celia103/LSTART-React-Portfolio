@@ -32,7 +32,7 @@ function Project(props) {
 							>
 								<FontAwesomeIcon icon={faLink} className="btn-icon" />
 								<a href={props.deployLink} target="_blank" rel="noopener noreferrer">
-									Deployed Ver.
+									Deploy Link
 								</a>
 							</button>
 						)}
@@ -59,7 +59,7 @@ function Project(props) {
 						src={props.screenshot}
 						alt={`Screenshot of ${props.title}`}
 						className="img-fluid rounded"
-						style={{ maxWidth: "90%", height: "auto" }}
+						style={{ maxWidth: "400px", height: "auto" }}
 					/>
 				)}
 				{props.video && (

@@ -32,15 +32,15 @@ function NavBar() {
 						<Nav.Link as={Link} to="/" className="nav-link text-white">
 							Home
 						</Nav.Link>
-						<Nav.Link as={Link} to="/about" className="nav-link text-white">
-							About
-						</Nav.Link>
 						<Nav.Link
 							as={Link}
 							to="/projects-gallery"
 							className="nav-link text-white"
 						>
-							Projects
+							Web Projects
+						</Nav.Link>
+						<Nav.Link as={Link} to="/design-gallery" className="nav-link text-white">
+							Design
 						</Nav.Link>
 						<Nav.Link as={Link} to="/contact" className="nav-link text-white">
 							Contact

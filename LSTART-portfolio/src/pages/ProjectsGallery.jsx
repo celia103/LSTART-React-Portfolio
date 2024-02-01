@@ -23,7 +23,7 @@ function ProjectsGallery() {
 			{/* Projects Section */}
 			<div className="container-fluid bg-dark text-white min-vh-100">
 				{projects.map((project) => (
-					<div key={project.id} className="row featurette">
+					<div key={project.id} className="row">
 						<Project
 							title={project.title}
 							description={project.description}
