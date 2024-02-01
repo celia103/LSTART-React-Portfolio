@@ -34,24 +34,30 @@ MIT License
 
 ## Features
 
-1. **Interactive Command-Line Interface:** Use an easy-to-use command-line interface to create a team profile based on user input.
-Features
-
 1. **Home Page**
 - **Introduction:** A warm introduction providing insights into Celia's background, skills, and enthusiasm for design and web development.
 - **Profile Photo:** A visually striking profile photo, creating a personal connection with the audience.
 Learn More: A call-to-action button directing users to explore Celia's projects.
-- **Projects Gallery:**
-Web Development Works: A dedicated section highlighting Celia's journey in web development. Projects are presented with detailed descriptions, screenshots, and links to live deployments and GitHub repositories.
-Responsive Designs: Each project showcases responsive designs and dynamic user interfaces, reflecting proficiency in HTML, CSS, JavaScript, and React.js.
+![Application Screenshot](./assets/screencapture/Portfolio1.png)
 
-2. **Design Gallery:**
+
+2. **Projects Gallery:**
+- **Web Development Works:** 
+A dedicated section highlighting Celia's journey in web development. Projects are presented with detailed descriptions, screenshots, and links to live deployments and GitHub repositories.
+- **Responsive Designs:** 
+Each project showcases responsive designs and dynamic user interfaces, reflecting proficiency in HTML, CSS, JavaScript, and React.js.
+![Application Screenshot](./assets/screencapture/Portfolio2.png)
+
+3. **Design Gallery:**
 - **Graphic Design Showcase:** An exhibition of Celia's graphic design and illustration works.
 - **Lightbox Gallery:** Users can explore each design in detail through a lightbox gallery, providing a closer look at Celia's growth and skills in graphic design.
-3. **Contact Page:**
+![Application Screenshot](./assets/screencapture/Portfolio3.png)
+
+4. **Contact Page:**
 - **Get In Touch:** A contact form for users to reach out, providing a seamless way to connect with Celia.
 - **Download CV:** Users can download Celia's detailed CV in PDF format for additional information.
 - **Social Links:** Direct links to Celia's LinkedIn, Email, and GitHub profiles, making it easy for users to connect and stay updated.
+![Application Screenshot](./assets/screencapture/Portfolio4.png)
 
 ##Technologies Used##
 1. **React:** The application is built using the React library, allowing for efficient component-based development and seamless navigation.
