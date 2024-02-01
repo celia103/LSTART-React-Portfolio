@@ -1,7 +1,10 @@
-// DesignGallery.jsx
-window.global ||= window;
+// Design Gallery page
+
+// Fix Lightbox issue
+window.global = window;
 
 import React, { useState } from "react";
+import Modal from 'react-modal';
 import Lightbox from "react-18-image-lightbox";
 import Design from "../components/Design.jsx";
 import "react-18-image-lightbox/style.css";
@@ -19,7 +22,11 @@ function DesignGallery() {
 				<div className="text-center p-5">
 					<h2 className="display-5 fw-bold">Design Works</h2>
 					<p className="lead mb-2">
-          Over the past 10+ years, I have embarked on a journey filled with collaboration and adventure. I have had the opportunity to work with diverse clients from various industries. This page serves as a showcase of my growth in graphic design and illustration. Each experience has taught me valuable lessons and helped me refine my craft and approach.
+						Over the past 10+ years, I have embarked on a journey filled with
+						collaboration and adventure. I have had the opportunity to work with
+						diverse clients from various industries. This page serves as a showcase of
+						my growth in graphic design and illustration. Each experience has taught
+						me valuable lessons and helped me refine my craft and approach.
 					</p>
 				</div>
 				<hr className="my-5" />
@@ -34,8 +41,8 @@ function DesignGallery() {
 										type="button"
 										className="btn btn-link w-100"
 										onClick={() => {
+                      setPhotoIndex(index);
 											setIsOpen(true);
-											setPhotoIndex(index);
 										}}
 									>
 										<Design

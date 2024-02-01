@@ -1,3 +1,4 @@
+//Project.jsx
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -53,6 +54,8 @@ function Project(props) {
 					</div>
 				</div>
 			</div>
+
+			{/* Image col */}
 			<div className="col-md-5 order-md-1 mx-auto text-center px-3">
 				{props.screenshot && (
 					<img

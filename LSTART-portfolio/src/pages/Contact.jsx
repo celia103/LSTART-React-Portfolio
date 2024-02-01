@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+// Contact pages
+import React, { useRef, useState } from "react";
+import { Modal, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +11,7 @@ import "../css/contact.css";
 
 function Contact() {
 	const form = useRef();
+	const [showModal, setShowModal] = useState(false);
 
 	const sendEmail = (e) => {
 		e.preventDefault();
@@ -23,11 +26,15 @@ function Contact() {
 			.then(
 				(result) => {
 					console.log(result.text);
+					setShowModal(true);
 				},
 				(error) => {
 					console.log(error.text);
 				}
 			);
+	};
+	const handleClose = () => {
+		setShowModal(false);
 	};
 
 	return (
@@ -53,7 +60,9 @@ function Contact() {
 						<div className="line bg-light"></div>
 
 						{/* Other */}
-						<p className="lead">Feel free to contact me, I'm looking forward to hear from you.</p>
+						<p className="lead">
+							Feel free to contact me, I'm looking forward to hear from you.
+						</p>
 						<ul className="unstyle">
 							<li>
 								<FontAwesomeIcon icon={faLinkedin} />
@@ -66,7 +75,7 @@ function Contact() {
 									Connect LinkedIn
 								</a>
 							</li>
-              <li>
+							<li>
 								<FontAwesomeIcon icon={faEnvelope} />
 								<a
 									href="mailto:celiayych@gmail.com"
@@ -77,7 +86,7 @@ function Contact() {
 									Send Email
 								</a>
 							</li>
-              <li>
+							<li>
 								<FontAwesomeIcon icon={faGithub} />
 								<a
 									href="https://github.com/celia103"
@@ -93,7 +102,7 @@ function Contact() {
 						<div className="line bg-light"></div>
 					</div>
 
-					{/* <!-- contact form --> */}
+					{/* <!-- Contact form --> */}
 					<div className="col-md-6 mx-auto my-4 px-3">
 						<div className="col align-self-center">
 							<h2>Contact Form</h2>
@@ -159,6 +168,19 @@ function Contact() {
 									</button>
 								</div>
 							</form>
+
+							{/* Successful message modal */}
+							<Modal show={showModal} onHide={handleClose}>
+								<Modal.Header closeButton>
+									<Modal.Title>Success!</Modal.Title>
+								</Modal.Header>
+								<Modal.Body>Your message has been sent successfully!</Modal.Body>
+								<Modal.Footer>
+									<Button variant="dark" onClick={handleClose}>
+										Close
+									</Button>
+								</Modal.Footer>
+							</Modal>
 						</div>
 					</div>
 				</div>

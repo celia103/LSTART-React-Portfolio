@@ -1,7 +1,6 @@
 /* Animated text */
 @import url("https://fonts.googleapis.com/css2?family=Carme&display=swap");
 
-
 svg {
   font-family: "Carme", sans-serif;
   width: 100%;
@@ -42,8 +41,8 @@ svg text {
   }
 }
 
-/* Profile-info style */
-.profile-info {
+/* Profile-image style */
+.profile-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,12 +77,12 @@ svg text {
   height: 290px;
 }
 
-.profile-info:hover .circleFrame1 {
+.profile-image:hover .circleFrame1 {
   transform: rotate(-365deg);
   cursor: pointer;
 }
 
-.profile-info:hover .circleFrame2 {
+.profile-image:hover .circleFrame2 {
   transform: rotate(365deg);
   cursor: pointer;
 }

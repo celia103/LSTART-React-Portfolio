@@ -1,3 +1,4 @@
+//Home page
 import React from "react";
 import "../css/home.css";
 import profileImage from "../assets/images/photo1.jpg";
@@ -10,6 +11,8 @@ function Home() {
 				<div className="row">
 					<div className="col-md-6">
 						<main className="d-flex w-100 h-100 p-3 mx-auto flex-column px-3 ms-md-4">
+
+							{/* Text section */}
 							<div>
 								<svg>
 									<text x="0%" y="50%" dy=".35em" textAnchor="start">
@@ -40,8 +43,10 @@ function Home() {
 							</p>
 						</main>
 					</div>
+
+					{/* Photo */}
 					<div className="col-md-6 d-flex justify-content-center align-items-center">
-						<div className="profile-info">
+						<div className="profile-image">
 							<div className="circleFrame1"></div>
 							<div className="circleFrame2"></div>
 							<img className="fitting-image" src={profileImage} alt="Profile" />
