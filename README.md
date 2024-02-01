@@ -71,12 +71,10 @@ Responsive Designs: Each project showcases responsive designs and dynamic user i
 <a href=" https://github.com/frontend-collective/react-image-lightbox/issues/91
 " target="_blank"> https://github.com/frontend-collective/react-image-lightbox/issues/91
 </a>
-- **stackoverflow.com**
-  <a href=" https://stackoverflow.com/
-  " target="_blank"> https://stackoverflow.com/
-  </a>
-## Questions
+-**stackoverflow**
+<a href=" https://stackoverflow.com/" target="_blank"> https://stackoverflow.com/</a>
 
+## Questions
 If you have any questions or need further clarification, feel free to open an issue or contact directly:
 
 - <a href="mailto:celiayych@gmail.com" target="_blank">Celia's Email</a>
