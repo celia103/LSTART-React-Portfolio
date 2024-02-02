@@ -59,7 +59,8 @@ Each project showcases responsive designs and dynamic user interfaces, reflectin
 - **Social Links:** Direct links to Celia's LinkedIn, Email, and GitHub profiles, making it easy for users to connect and stay updated.
 ![Application Screenshot](./assets/screencapture/Portfolio4.png)
 
-##Technologies Used##
+##Technologies Used
+
 1. **React:** The application is built using the React library, allowing for efficient component-based development and seamless navigation.
 2. **React Router:** Navigation between different sections of the portfolio is managed using React Router.
 3. **Bootstrap:** The application leverages Bootstrap for responsive and visually appealing design elements.
@@ -77,7 +78,7 @@ Each project showcases responsive designs and dynamic user interfaces, reflectin
 <a href=" https://github.com/frontend-collective/react-image-lightbox/issues/91
 " target="_blank"> https://github.com/frontend-collective/react-image-lightbox/issues/91
 </a>
--**stackoverflow**
+- **stackoverflow**
 <a href=" https://stackoverflow.com/" target="_blank"> https://stackoverflow.com/</a>
 
 ## Questions
