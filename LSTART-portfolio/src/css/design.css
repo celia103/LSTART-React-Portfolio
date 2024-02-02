@@ -98,9 +98,24 @@
 		}
 	}
 
-	.ril__image {
+	.ril-image-next,
+	.ril__imageNext {
 		@media only screen and (max-width: 1023px) {
-			transform: none !important;
+			transform: 100%;
+			width: auto;
+		}
+	}
+	.ril-image-current {
+		@media only screen and (max-width: 1023px) {
+			transform: 0%;
+			width: auto;
+		}
+	}
+	.ril-image-prev,
+	.ril__imagePrev {
+		@media only screen and (max-width: 1023px) {
+			transform: -100%;
+			width: auto;
 		}
 	}
 }
